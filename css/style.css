@@ -10,7 +10,7 @@ h2{
     color: #9467e7;;
 }
 header h2{
-    color:navy;
+    color:rgb(67, 192, 241);
 }
 footer {
     background-image: linear-gradient(#CEC8FF, white);
@@ -27,4 +27,8 @@ footer {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
+}
+
+.row-content a {
+    color: #9467e7;;
 }
