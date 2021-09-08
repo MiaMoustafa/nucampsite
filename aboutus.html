@@ -6,12 +6,12 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
-
-  <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-  <link rel="stylesheet" href="css/style.css" />
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- endbuild -->
   <link
     href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Noto+Serif:wght@400;700&display=swap"
     rel="stylesheet" />
@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-4 col-sm-3 col-md-2 align-self-center">
-          <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
+          <a href="index.html"> <img src="img/logo.png" alt="logo" class="img-fluid" /></a>
         </div>
         <div class="col">
           <h1>NuCamp</h1>
@@ -36,7 +36,7 @@
 
   <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
-      <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+      <a class="navbar-brand" href="index.html"> <img src="img/logo.png" alt="logo" height="30" width="30" /></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -118,7 +118,7 @@
 
         <div id="accordion">
           <div class="card">
-            <div role="tab" class="card-header">
+            <div role="tablist" class="card-header">
                 <h4>
                     <a class="collapsed" data-toggle="collapse" data-target="#git">
                         Git Out Expeditions <small>Group Adventure Expeditions</small>
@@ -132,7 +132,7 @@
             </div>
         </div>
         <div class="card">
-            <div role="tab" class="card-header">
+            <div role="tablist" class="card-header">
                 <h4>
                     <a class="collapsed" data-toggle="collapse" data-target="#mongo">
                         Mongo Fly Shop <small>Your Neighborhood Fly Fishing Shop</small>
@@ -146,7 +146,7 @@
             </div>
         </div>
         <div class="card">
-            <div role="tab" class="card-header">
+            <div role="tablist" class="card-header">
                 <h4>
                     <a class="collapsed" data-toggle="collapse" data-target="#node">
                         Node Outdoor Apparel <small>Outdoor Clothes & Shoes</small>
@@ -231,9 +231,12 @@
       </div>
     </div>
   </footer>
-  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-  <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+    <!-- build:js js/main.js -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- enbuild -->
 </body>
 
 </html>
