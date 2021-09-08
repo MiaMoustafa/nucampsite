@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "scss",
+			"problemMatcher": [],
+			"label": "npm: scss",
+			"detail": "node-sass -o css/ css/",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
